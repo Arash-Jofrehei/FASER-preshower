@@ -1,0 +1,7 @@
+executable            = singleDecoder.sh
+arguments             = $(f)
+error                 = output/$(f).err
++MaxRuntime = 600
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+queue f matching files /eos/experiment/faser/raw/2025/01948*/Faser-Physics-*.raw

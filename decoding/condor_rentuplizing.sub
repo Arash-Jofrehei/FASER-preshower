@@ -1,0 +1,6 @@
+executable            = rentuplizer.py
+arguments             = --occThr=2 --inDir=$(dir)
++MaxRuntime = 180
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+queue dir matching dirs /eos/user/a/ajofrehe/FASER/preshower/decoded/02014*/*
